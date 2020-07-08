@@ -1,0 +1,15 @@
+*vim-win.txt*                          Buffer Windows Commands
+
+COMMANDS                                    *vim-win-commands*
+
+:HideLeftColumns             setlocal nonumber, norelativenumber
+                            signcolumn=no, foldcolumn=0
+:ShowLeftColumns             setlocal number, relativenumber,
+                            signcolumn=yes, foldcolumn=1
+:ToggleRelativeNumber        Toggles betwen relativenumber and
+                            norelativenumber
+:FitWindowSize               Fits window size to the longest line
+                            in text.
+
+
+vim:tw=78:ts=8:noet:ft=help:norl:
