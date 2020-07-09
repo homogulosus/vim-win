@@ -5,10 +5,10 @@
 " Last Update: Wed Jul  8 19:04:12 EDT 2020
 " ===========================================
 
-if exists('g:loaded_vim-win')
+if exists('g:loaded_vimwin')
   finish
 endif
-let g:loaded_vim-win= 1
+let g:loaded_vimwin= 1
 
 let s:save_cpo = &cpo
 set cpo&vim
